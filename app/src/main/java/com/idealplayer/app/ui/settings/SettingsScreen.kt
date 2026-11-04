@@ -191,6 +191,7 @@ private data class LanguageOption(val code: String, val labelResId: Int)
 
 private val appLanguages = listOf(
     LanguageOption("system", R.string.language_system),
+    LanguageOption("ar", R.string.language_arabic),
     LanguageOption("tr", R.string.language_turkish),
     LanguageOption("en", R.string.language_english)
 )
