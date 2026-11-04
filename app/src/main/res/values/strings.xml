@@ -178,6 +178,7 @@
 
     <!-- Language Settings -->
     <string name="settings_app_language">Uygulama Dili</string>
+    <string name="language_arabic">العربية</string>
     <string name="language_turkish">Türkçe</string>
     <string name="language_english">English</string>
     <string name="language_system">Sistem Dili</string>

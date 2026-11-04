@@ -177,6 +177,7 @@
     <string name="retry_playback_error_exhausted">This content cannot be played. Choose another channel.</string>
 
     <string name="settings_app_language">App Language</string>
+    <string name="language_arabic">Arabic</string>
     <string name="language_turkish">Türkçe</string>
     <string name="language_english">English</string>
     <string name="language_system">System Default</string>

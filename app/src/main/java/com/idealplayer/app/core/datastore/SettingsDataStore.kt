@@ -17,7 +17,7 @@ val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "id
 
 data class AppSettings(
     // App General
-    val appLanguage: String = "tr",
+    val appLanguage: String = "ar",
     val playerEngine: String = "EXOPLAYER",
 
 
@@ -126,7 +126,7 @@ class SettingsDataStore @Inject constructor(
 
     val settings: Flow<AppSettings> = store.data.map { prefs ->
         AppSettings(
-            appLanguage = prefs[Keys.APP_LANGUAGE] ?: "tr",
+            appLanguage = prefs[Keys.APP_LANGUAGE] ?: "ar",
             playerEngine = prefs[Keys.PLAYER_ENGINE] ?: "EXOPLAYER",
 
             seekForwardMs = prefs[Keys.SEEK_FORWARD] ?: Constants.DEFAULT_SEEK_FORWARD_MS,

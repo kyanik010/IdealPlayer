@@ -177,6 +177,7 @@
     <string name="retry_playback_error_exhausted">Bu içerik oynatılamıyor. Farklı bir kanal seçin.</string>
 
     <string name="settings_app_language">Uygulama Dili</string>
+    <string name="language_arabic">Arapça</string>
     <string name="language_turkish">Türkçe</string>
     <string name="language_english">English</string>
     <string name="language_system">Sistem Dili</string>
